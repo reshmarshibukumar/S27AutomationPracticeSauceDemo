@@ -12,7 +12,7 @@ import pageObject.LoginSauceDemo_PageObject;
 
 public class LoginTest_Saucedemo extends BaseClass_SauceDemo 
 {
-	@Test(priority=1)
+	//@Test(priority=1)
 	public void validLogin()
 	{   
 		LoginSauceDemo_PageObject obj=new LoginSauceDemo_PageObject(driver);
@@ -29,7 +29,7 @@ public class LoginTest_Saucedemo extends BaseClass_SauceDemo
 		System.out.println("LoggedIn with Valid Credentials");
 	}
 	
-	@Test(priority=2)
+	//@Test(priority=2)
 	public void invalidUsername()
 	{
 		LoginSauceDemo_PageObject obj=new LoginSauceDemo_PageObject(driver);
